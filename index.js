@@ -98,13 +98,13 @@ app.get('/index.hbs', (req, res) => {
 
 
 app.get('/habitaciones.hbs', (req, res) => {
-    res.render('habitaciones')
+    res.render('habitaciones.hbs')
 
 });
 
 
 app.get('/consultas.hbs', (req, res) => {
-    res.render('consultas')
+    res.render('consultas.hbs')
 })
 
 
