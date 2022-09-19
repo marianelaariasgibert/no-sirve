@@ -1,0 +1,98 @@
+
+.div__img--portada{
+    
+    width: 95em;
+    height: 50em;
+    margin: auto;
+    margin-top: 0;
+
+} 
+
+.h1--fuente{
+    font-family: 'Cinzel', serif;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    
+}
+
+.h1--posicion{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} 
+
+.h3--fuente{
+    
+    text-align: center;
+    font-size: 2em;
+    color: black;    
+    
+}
+
+
+.h3--posicion{
+    text-align: center;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} 
+
+
+.contenedor--descuentos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    
+    
+}
+
+
+.texto--inicial{
+    padding-top: 14vh;
+}
+
+#texto--descuento{
+    margin: 2.5%;
+}
+.div--descuentos{
+    margin: auto;
+    box-shadow: 5px 5px 40px rgba(86, 83, 83, 0.222);
+    margin: 2.5%;
+    
+} 
+
+/* SECCION ICONOS */
+
+.contenedor--iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 7%;
+    text-align: center;
+    margin-bottom: 10vh;
+    
+}
+
+.texto--iconos{     
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}  
+.img--iconos{
+    height: 4em;
+}
+
+.titulos{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 7vh;
+
+}

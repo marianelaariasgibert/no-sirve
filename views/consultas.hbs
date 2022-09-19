@@ -1,0 +1,42 @@
+
+
+        <section class="container">
+            <div class="titulos">
+                CONSULTAS
+            </div>
+
+             <div class="texto--iconos" style="color: red;">
+                {{ datos }}
+            </div>
+
+        <form action="./consultas.hbs" method="POST">
+            <div class="mb-3">
+                <label for="nombre"  class="form-label ">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido" name="apellido">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" >
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="telefono" name="telefono">
+            </div>
+            <div class="mb-3">
+                <label for="textarea" class="form-label"></label>
+                <textarea type="text" class="form-control" id="textarea" name="textarea" rows="10" placeholder="Escriba aqui su consulta"></textarea>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <input class="button btn btn-secondary" type="submit" value="Enviar"></input>
+            </div>
+
+        </form>
+
+        <hr>
+            
+        </section>
