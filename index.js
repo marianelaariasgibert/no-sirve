@@ -30,7 +30,7 @@ hbs.registerPartials(path.join(__dirname, 'views/partials'));
 //     res.send('Conexion establecida') 
 // });
 
-app.get('/index.hbs', (req, res) => {
+app.get('/index', (req, res) => {
     res.render('index')
 
 });
