@@ -140,4 +140,6 @@ app.post ('/consultas.hbs', (req, res) => {
 
 
 
-app.listen(PORT, () => {});
+app.listen(PORT, () => {
+    console.log(PORT)
+});
