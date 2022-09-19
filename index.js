@@ -26,9 +26,9 @@ app.set('views', path.join(__dirname, 'views'));
 hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
 
-app.get('/', (req, res) => { // matchea con la app principal '/' envia respuesta - abro pat para que envie respuesta '/home' localhost:3000/home
-    res.send('Conexion establecida') // esta es la respuesta
-});
+// app.get('/', (req, res) => { 
+//     res.send('Conexion establecida') 
+// });
 
 app.get('/index.hbs', (req, res) => {
     res.render('index')
