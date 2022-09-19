@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
     res.send('Conexion establecida') 
 });
 
-app.get('/index', (req, res) => {
+app.get('/index.hbs', (req, res) => {
     res.render('index')
 
 });
