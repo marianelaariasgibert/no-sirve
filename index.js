@@ -26,14 +26,14 @@ app.set('views', path.join(__dirname, 'views'));
 hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
 
-app.get('/', (req, res) => { 
-    res.render('index.hbs') 
-});
-
-// app.get('/index', (req, res) => {
-//     res.render('index')
-
+// app.get('/', (req, res) => { 
+//     res.send('Conexion establecida') 
 // });
+
+app.get('/', (req, res) => {
+    res.render('index')
+
+});
 
 // app.post('/index.hbs', async (req, res) => {
 //     const suscripciones = req.body.suscripciones;
